@@ -20,8 +20,7 @@ const defaultMenu = {
 │
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
-├ Github:
-├ %github
+├ apikey abis makanya error :v
 └────
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
@@ -190,7 +189,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": "© Putbotz",
-          "buttonText": "Klik Disini",
+          "buttonText": "Klik Disini Jangan Spam",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
