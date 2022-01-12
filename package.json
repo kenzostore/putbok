@@ -1,7 +1,7 @@
 {
   "name": "stikerinbot",
   "version": "1.1.2",
-  "description": "WhatsApp Bot Ringan",
+  "description": "Made By @Putbotz",
   "main": "index.js",
   "directories": {
     "lib": "lib",
