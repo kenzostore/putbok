@@ -16,8 +16,8 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
             room.state = 'PLAYING'
             let arr = room.game.render().map(v => {
                 return {
-                    X: '❌',
-                    O: '⭕',
+                    X: '🐶',
+                    O: '🐱',
                     1: '1️⃣',
                     2: '2️⃣',
                     3: '3️⃣',
@@ -38,8 +38,8 @@ ${arr.slice(6).join('')}
 Menunggu @${room.game.currentTurn.split('@')[0]}
 Ketik *nyerah* untuk nyerah
 `.trim()
-            if (room.x !== room.o) await conn.sendButton(room.x, str, '© stikerin', 'Nyerah', 'nyerah', m)
-            await conn.sendButton(room.o, str, '© stikerin', 'Nyerah', 'nyerah', m)
+            if (room.x !== room.o) await conn.sendButton(room.x, str, '© Putbotz', 'Nyerah', 'nyerah', m)
+            await conn.sendButton(room.o, str, '© Putbot,', 'Nyerah', 'nyerah', m)
         } else {
             room = {
                 id: 'tictactoe-' + (+new Date),
