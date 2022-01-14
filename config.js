@@ -35,7 +35,7 @@ global.author = 'ganteng'
 
 global.wm = '© Putbotz'
 global.wait = '_*tunggu sedang diproses...*_'
-global.eror = '_*Server Error*_'
+global.eror = '_*Put tido*_'
 global.benar = '✅'
 global.salah = '❌'
 global.dikit = 'dikit lagi'
