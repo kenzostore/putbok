@@ -376,7 +376,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'made with ❤️ by ariffb', 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'made with ❤️ by Putbotz🤖', 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
@@ -412,16 +412,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Selamat pagi"
+    res = "Good morning :3"
   }
   if (time > 10) {
-    res = "Selamat siang"
+    res = "Good morning :3"
   }
   if (time >= 15) {
-    res = "Selamat sore"
+    res = "good afternoon:3"
   }
   if (time >= 18) {
-    res = "Selamat malam"
+    res = "Good night jan bergadang y ntar sakit <3"
   }
   return res
 }
