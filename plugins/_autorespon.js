@@ -8,7 +8,11 @@ handler.all = async function (m, { conn, isBlocked }) {
     let { isBanned } = db.data.chats[m.chat]
     let { banned } = db.data.users[m.sender]
     
-  
+    let reg = /(bodo|babi|buto|bot|sial)/i
+    let isTest = reg.exec(m.text)
+    if (isTest && !m.fromMe) {
+        m.reply(jangan toxic ya ©Putbotz)
+
     //salam
     let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم|aslm)/i
     let isSalam = reg.exec(m.text)
