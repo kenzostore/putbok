@@ -32,6 +32,7 @@ global.packname = 'Putbotz'
 global.author = 'ganteng'
 
 global.wm = '© Putbotz'
+global.eror = '_*ok*_'
 global.wait = '_*sabar ya putbotz lagi proses😾*_'
 global.benar = '✅'
 global.salah = '❌'
