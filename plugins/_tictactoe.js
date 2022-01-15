@@ -35,8 +35,8 @@ handler.before = async function (m) {
         else if (room.game.board === 511) isTie = true
         let arr = room.game.render().map(v => {
             return {
-                X: '❌',
-                O: '⭕',
+                X: '😾',
+                O: '🐶',
                 1: '1️⃣',
                 2: '2️⃣',
                 3: '3️⃣',
@@ -59,20 +59,20 @@ ${arr.slice(3, 6).join('')}
 ${arr.slice(6).join('')}
 ${isWin ? `@${winner.split`@`[0]} Menang! (+${winScore} XP)` : isTie ? `Game berakhir (+${playScore} XP)` : `Giliran ${['❌', '⭕'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split`@`[0]})`}
 
-❌: @${room.game.playerX.split`@`[0]}
-⭕: @${room.game.playerO.split`@`[0]}
+😾: @${room.game.playerX.split`@`[0]}
+🐶: @${room.game.playerO.split`@`[0]}
 Ketik *nyerah* untuk nyerah
 Room ID: ${room.id}
 `.trim()
         let users = global.db.data.users
         if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
             room[room.game._currentTurn ^ isSurrender ? 'x' : 'o'] = m.chat
-        if (room.x !== room.o) await conn.sendButton(room.x, str, '© stikerin', 'Nyerah', 'nyerah', m, {
+        if (room.x !== room.o) await conn.sendButton(room.x, str, '© Putbotz', 'Nyerah', 'nyerah', m, {
             contextInfo: {
                 mentionedJid: this.parseMention(str)
             }
         })
-        await conn.sendButton(room.o, str, '© stikerin', 'Nyerah', 'nyerah', m, {
+        await conn.sendButton(room.o, str, '© Putbotz', 'Nyerah', 'nyerah', m, {
             contextInfo: {
                 mentionedJid: this.parseMention(str)
             }
