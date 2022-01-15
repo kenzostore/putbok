@@ -104,7 +104,7 @@ module.exports = {
           antiBadword: true,
           antiLink: false,
           delete: true,
-          descUpdate: true,
+          descUpdate: false,
           download: true,
           expired: 0,
           getmsg: false,
