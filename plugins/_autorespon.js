@@ -8,29 +8,7 @@ handler.all = async function (m, { conn, isBlocked }) {
     let { isBanned } = db.data.chats[m.chat]
     let { banned } = db.data.users[m.sender]
 
-    // ketika ditag 
-    if (m.isGroup) {
-        if (m.mentionedJid.includes(this.user.jid)) {
-            await this.send2Button(m.chat,
-                isBanned ? 'stikerin tidak aktif' : banned ? 'kamu dibanned' : 'stikerin aktif',
-                '© stikerin',
-                isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
-                isBanned ? '.unban' : banned ? '.owner' : '.?',
-                m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
-                m.isGroup ? '.ban' : isBanned ? '.unban' : '.donasi', m)
-        }
-    }
 
-    // ketika ada yang invite/kirim link grup di chat pribadi
-    if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
-        this.sendButton(m.chat, `┌「 *Undang Bot ke Grup* 」
-├ 7 Hari / Rp 5,000
-├ 30 Hari / Rp 10,000
-└────
-
-https://github.com/ariffb25/stikerinbot
-`.trim(), '© stikerin', 'Pemilik Bot', ',owner', m)
-    }
 
     // salam
     let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
