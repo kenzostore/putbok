@@ -9,8 +9,8 @@ handler.all = async function (m, { conn, isBlocked }) {
     let { banned } = db.data.users[m.sender]
     
   
-    
-    let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم/aslm)/i
+    //salam
+    let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم|aslm)/i
     let isSalam = reg.exec(m.text)
     if (isSalam && !m.fromMe) {
         m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ\n_wa\'alaikumussalam wr.wb._`)
