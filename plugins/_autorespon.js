@@ -10,9 +10,9 @@ handler.all = async function (m, { conn, isBlocked }) {
 
 
     //test
-    let reg = /(as?lm)
-    let isSalam = ref.exec(m.text)
-    if (isSalam && !m.FromMe) {
+    let reg = /(as?lm)/i
+    let isTest= ref.exec(m.text)
+    if (isTest && !m.FromMe) {
         m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ\n_wa\'alaikumussalam wr.wb._`)
     // salam
     }
