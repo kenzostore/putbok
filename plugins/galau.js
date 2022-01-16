@@ -87,5 +87,17 @@ global.galau = [
     "Balikan sama kamu itu sama saja bunuh diri dan melukai perasaan ku sendiri",
     "Tak perlu membalas dengan menyakiti biar Karma yang akan urus semua itu",
     "Aku masih ingat kamu tapi perasaanku sudah tidak sakit seperti dulu",
+    "lelaki yang menahan perangai cewek nya itu adalah lelaki strong :)",
+    "Di rumah sad disekolah sesad",
+    "sleepcall doang ketemu kagak",
+    "Jangan Mencintai seseorang yang belum selesai dengan masalalunya",
+    "mungkin jodoh mu lebih baik dari aku:)",
+    "Aku terlalu bersahabat dengan luka hingga lupa rasanya bahagia.",
+    "Lupakan pahitnya, jangan lupakan pelajarannya.",
+    "Hal terberat yang aku lalui adalah melihatmu ada di pelukannya.",
+    "Kita seperti domino. Aku jatuh padamu, dan kamu jatuh ke orang lain.",
+    "Sebagai teman lama, mungkin aku tak tahu kabarmu sekarang. Tapi, teman barumu mungkin tidak mengerti kisah masa lalumu seperti aku.",
+    "Cinta ditolak adalah bagian dari hidup. Itu akan berlalu jika kamu melepaskannya. Jadi, move on dan jalani hidupmu lagi.",
+    "Ada kesadaran dalam diamku. Ada penghargaan dalam teriakku, tapi tetap saja ada yang pergi meninggalkanku.",
     "Punya kalimat sendiri & mau ditambahin? chat *.owner*"
 ]
