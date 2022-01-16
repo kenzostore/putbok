@@ -8,3 +8,5 @@ handler.command = /^(sesad)$/i
 module.exports = handler
 
 global.sesad = [
+  "untung gua jeles,jadi ada alasan buat jomblo wkwk",
+  "Kata kata tersakit pas lebaran menurut gua adalah *Kamu gak ush y,Kan udah gede*",
