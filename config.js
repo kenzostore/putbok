@@ -24,7 +24,7 @@ global.APIKeys = { // APIKey nya disini
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://pencarikode.xyz': 'pais',
   'https://api.xteam.xyz': 'cecdb90f3153298c',
-  'https://api.zeks.xyz': 'apivinz',
+  'https://api.zeks.xyz': 'uLWJTl4xWh2vDQod9O3LcOcQOIS',
 }
 
 // Sticker WM
