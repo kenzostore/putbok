@@ -1,5 +1,9 @@
-let handler = async (m, { conn, usedPrefix, command }) => {
-    await conn.sendButton(m.chat, `“${conn.pickRandom(global.sesad)}”`, '© Putbotz', 'sesad', `${usedPrefix + command}`, m)
+let fetch = require('node-fetch') 
+let handler  = async (m) => {
+  let res = await fetch(global.API('https://raw.githubusercontent.com', '/Putbotz/database/master/kata-kata/sesad.json'))
+  if (!res.ok) throw await res.text()
+  let json = await res.json()
+  m.reply(pickRandom(json))
 }
 handler.help = ['sesad']
 handler.tags = ['quotes']
@@ -7,6 +11,6 @@ handler.command = /^(sesad)$/i
 
 module.exports = handler
 
-global.sesad = [
-  "untung gua jeles,jadi ada alasan buat jomblo wkwk",
-  "Kata kata tersakit pas lebaran menurut gua adalah *Kamu gak ush y,Kan udah gede*",
+function pickRandom(list) {
+  return list[Math.round(Math.random() * list.length)]
+}
