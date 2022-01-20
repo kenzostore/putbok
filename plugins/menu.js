@@ -194,89 +194,89 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `Semua Perintah`,
+                  "title": `[🧾] Semua Perintah`,
                   "description": "",
                   "rowId": `${_p}? all`
                 }, {
-                  "title": "Game",
+                  "title": "[🎮] Game",
                   "description": "",
                   "rowId": `${_p}? game`
 
                 }, {
-                  "title": "XP",
+                  "title": "[📈] XP",
                   "description": "",
                   "rowId": `${_p}? xp`
 
                 }, {
-                  "title": "Stiker",
+                  "title": "[🎇] Stiker",
                   "description": "",
                   "rowId": `${_p}? stiker`
                 }, {
-                  "title": "Kerang Ajaib",
+                  "title": "[🐚] Kerang Ajaib",
                   "description": "",
                   "rowId": `${_p}? kerangajaib`
                 }, {
-                  "title": "Quotes",
+                  "title": "[📑] Quotes",
                   "description": "",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "Admin",
+                  "title": "[🏛️] Admin",
                   "description": "",
                   "rowId": `${_p}? admin`
                 }, {
-                  "title": "Grup",
+                  "title": "[🏢] Grup",
                   "description": "",
                   "rowId": `${_p}? grup`
                 }, {
-                  "title": "Premium",
+                  "title": "[🔝] Premium",
                   "description": "",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "Internet",
+                  "title": "[🖥️] Internet",
                   "description": "",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "Anonymous",
+                  "title": "[🥷] Anonymous",
                   "description": "",
                   "rowId": `${_p}? anonymous`
                 }, {
-                  "title": "Nulis & Logo",
+                  "title": "✒️] Nulis & Logo",
                   "description": "",
                   "rowId": `${_p}? nulis`
                 }, {
-                  "title": "Downloader",
+                  "title": "[📺] Downloader",
                   "description": "",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "Tools",
+                  "title": "[🔧] Tools",
                   "description": "",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "Fun",
+                  "title": "[🎇] Fun",
                   "description": "",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "Database",
+                  "title": "[📂] Database",
                   "description": "",
                   "rowId": `${_p}? database`
                 }, {
-                  "title": "Vote & Absen",
+                  "title": "[📝] Vote & Absen",
                   "description": "",
                   "rowId": `${_p}? vote`
                 }, {
-                  "title": "Al-Qur\'an",
+                  "title": "[🕋] Al-Qur\'an",
                   "description": "",
                   "rowId": `${_p}? quran`
                 }, {
-                  "title": "Pengubah Suara",
+                  "title": "[🎙️] Pengubah Suara",
                   "description": "",
                   "rowId": `${_p}? audio`
                 }, {
-                  "title": "Jadi Bot",
+                  "title": "[🤖] Jadi Bot",
                   "description": "",
                   "rowId": `${_p}? jadibot`
                 }, {
-                  "title": "Info",
+                  "title": "[ℹ️] Info",
                   "description": "",
                   "rowId": `${_p}? info`
                 }, {
@@ -284,7 +284,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "",
                   "rowId": `${_p}? tanpakategori`
                 }, {
-                  "title": "Owner",
+                  "title": "🧑‍💻] Owner",
                   "description": "",
                   "rowId": `${_p}? owner`
                 }
