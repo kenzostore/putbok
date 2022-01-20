@@ -196,7 +196,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
               "rows": [
                 {
                   "title": `[🧾] Semua Perintah`,
-                  "description": "MEMBERIKAN SEMUA FITUR PUTBOTZ",
+                  "description": "SEMUA FITUR PUTBOTZ",
                   "rowId": `${_p}? all`
                 }, {
                   "title": "[🎮] Game",
@@ -250,7 +250,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": `${_p}? downloader`
                 }, {
                   "title": "[🔧] Tools",
-                  "description": "TOOLS YG BISA DIGUNAKAN DI PUTBOTZ",
+                  "description": "TOOLS PUTBOTZ",
                   "rowId": `${_p}? tools`
                 }, {
                   "title": "[🎇] Fun",
