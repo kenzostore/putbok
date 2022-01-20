@@ -127,22 +127,22 @@ module.exports = {
           if (!'group' in settings) settings.group = false
           if (!'jadibot' in settings) settings.jadibot = false
           if (!'nsfw' in settings) settings.nsfw = true
-          if (!'restrict' in settings) settings.restrict = false
+          if (!'restrict' in settings) settings.restrict = true
           if (!'self' in settings) settings.self = false
           if (!isNumber(settings.status)) settings.status = 0
         } else global.db.data.settings[this.user.jid] = {
           anon: true,
           anticall: false,
-          antispam: false,
+          antispam: true,
           antitroli: false,
           autoupdatestatus: false,
           backup: false,
-          buggc: true,
+          buggc: false,
           backupTime: 0,
           group: false,
           jadibot: true,
           nsfw: false,
-          restrict: false,
+          restrict: true,
           self: false,
           status: 0,
         }
