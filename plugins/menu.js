@@ -20,7 +20,6 @@ const defaultMenu = {
 │
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
-├ apikey abis makanya error :v
 └────
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
@@ -189,103 +188,103 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": "© Putbotz",
-          "buttonText": "Klik Disini Jangan Spam",
+          "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
-                  "title": `[🧾] Semua Perintah`,
+                  "title": `Semua Perintah`,
                   "description": "",
                   "rowId": `${_p}? all`
                 }, {
-                  "title": "[🎮] Game",
+                  "title": "Game",
                   "description": "",
                   "rowId": `${_p}? game`
 
                 }, {
-                  "title": ""[📈] XP",
+                  "title": "XP",
                   "description": "",
                   "rowId": `${_p}? xp`
 
                 }, {
-                  "title": "[🎇] Stiker",
+                  "title": "Stiker",
                   "description": "",
                   "rowId": `${_p}? stiker`
                 }, {
-                  "title": "[🐚] Kerang Ajaib",
+                  "title": "Kerang Ajaib",
                   "description": "",
                   "rowId": `${_p}? kerangajaib`
                 }, {
-                  "title": "[📑] Quotes",
+                  "title": "Quotes",
                   "description": "",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "[🏛️] Admin",
+                  "title": "Admin",
                   "description": "",
                   "rowId": `${_p}? admin`
                 }, {
-                  "title": "[🏢] Grup",
+                  "title": "Grup",
                   "description": "",
                   "rowId": `${_p}? grup`
                 }, {
-                  "title": "[🔝] Premium",
+                  "title": "Premium",
                   "description": "",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "[🖥️] Internet",
+                  "title": "Internet",
                   "description": "",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "[🥷] Anonymous",
+                  "title": "Anonymous",
                   "description": "",
                   "rowId": `${_p}? anonymous`
                 }, {
-                  "title": "[✒️] Nulis & Logo",
+                  "title": "Nulis & Logo",
                   "description": "",
                   "rowId": `${_p}? nulis`
                 }, {
-                  "title": "[📺] Downloader",
+                  "title": "Downloader",
                   "description": "",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "[🔧] Tools",
+                  "title": "Tools",
                   "description": "",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "[🎇] Fun",
+                  "title": "Fun",
                   "description": "",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "[📂] Database",
+                  "title": "Database",
                   "description": "",
                   "rowId": `${_p}? database`
                 }, {
-                  "title": "[📝] Vote & Absen",
+                  "title": "Vote & Absen",
                   "description": "",
                   "rowId": `${_p}? vote`
                 }, {
-                  "title": "[🕋]Al-Qur\'an",
+                  "title": "Al-Qur\'an",
                   "description": "",
                   "rowId": `${_p}? quran`
                 }, {
-                  "title": "[🎙️] Pengubah Suara",
+                  "title": "Pengubah Suara",
                   "description": "",
                   "rowId": `${_p}? audio`
                 }, {
-                  "title": "[🤖] Jadi Bot",
+                  "title": "Jadi Bot",
                   "description": "",
                   "rowId": `${_p}? jadibot`
                 }, {
-                  "title": "[ℹ️] Info",
+                  "title": "Info",
                   "description": "",
                   "rowId": `${_p}? info`
                 }, {
-                  "title": "[🚫]Tanpa Kategori",
+                  "title": "Tanpa Kategori",
                   "description": "",
                   "rowId": `${_p}? tanpakategori`
                 }, {
-                  "title": "🧑‍💻] Owner",
+                  "title": "Owner",
                   "description": "",
                   "rowId": `${_p}? owner`
                 }
@@ -376,7 +375,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'made with ❤️ by Putbotz🤖', 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'made with ❤️ by Putbotz', 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
@@ -412,16 +411,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Good morning"
+    res = "Selamat pagi"
   }
   if (time > 10) {
-    res = "Good morning"
+    res = "Selamat siang"
   }
   if (time >= 15) {
-    res = "good afternoon"
+    res = "Selamat sore"
   }
   if (time >= 18) {
-    res = "Good night"
+    res = "Selamat malam"
   }
   return res
 }
