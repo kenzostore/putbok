@@ -9,7 +9,7 @@
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node .",
+    "start": "npm start",
     "test": "node test"
   },
   "repository": {
