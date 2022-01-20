@@ -1,7 +1,7 @@
 {
   "name": "Putbotz",
-  "version": "9.1.6",
-  "description": "Made By @Putbotz",
+  "version": "1.1.2",
+  "description": "Made by ©Putbotz",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Putbotz/stikerinbot.git"
+    "url": "git+https://github.com/ariffb25/stikerinbot.git"
   },
   "keywords": [
     "whatsapp-bot"
@@ -22,11 +22,11 @@
   "author": "Putbotz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Putbotz/stikerinbot/issues"
+    "url": "https://github.com/ariffb25/stikerinbot/issues"
   },
   "homepage": "https://github.com/ariffb25/stikerinbot",
   "dependencies": {
-    "@adiwajshing/baileys": "github:melcanz/Baileys",
+    "@adiwajshing/baileys": "^3.5.3",
     "awesome-phonenumber": "^2.54.0",
     "axios": "^0.21.1",
     "brainly-scraper-v2": "^2.0.3",
@@ -56,7 +56,6 @@
     "node-gtts": "^2.0.2",
     "node-tesseract-ocr": "^2.2.1",
     "node-webpmux": "^3.1.0",
-    "node-os-utils": "^1.3.5",
     "pet-pet-gif": "^1.0.9",
     "qrcode": "^1.4.4",
     "qrcode-terminal": "^0.12.0",
@@ -69,5 +68,6 @@
     "wa-sticker-formatter": "^4.0.14",
     "xmldom": "^0.6.0",
     "yargs": "^17.0.1",
+    "yt-search": "^2.9.0"
   }
 }
