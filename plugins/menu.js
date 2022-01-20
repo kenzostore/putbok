@@ -195,98 +195,98 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `Semua Perintah`,
-                  "description": "",
+                  "title": `[🧾] Semua Perintah`,
+                  "description": "MEMBERIKAN SEMUA FITUR PUTBOTZ",
                   "rowId": `${_p}? all`
                 }, {
-                  "title": "Game",
-                  "description": "",
+                  "title": "[🎮] Game",
+                  "description": "MENU GAME",
                   "rowId": `${_p}? game`
 
                 }, {
-                  "title": "XP",
-                  "description": "",
+                  "title": ""[📈] XP",
+                  "description": "XP DAN LEVEL",
                   "rowId": `${_p}? xp`
 
                 }, {
-                  "title": "Stiker",
-                  "description": "",
+                  "title": "[🎇] Stiker",
+                  "description": "MENU BUAT STIKER",
                   "rowId": `${_p}? stiker`
                 }, {
-                  "title": "Kerang Ajaib",
-                  "description": "",
+                  "title": "[🐚] Kerang Ajaib",
+                  "description": "MENURUT KERANG AJAIB",
                   "rowId": `${_p}? kerangajaib`
                 }, {
-                  "title": "Quotes",
-                  "description": "",
+                  "title": "[📑] Quotes",
+                  "description": "MENU QUOTES",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "Admin",
-                  "description": "",
+                  "title": "[🏛️] Admin",
+                  "description": "MENU ADMIN",
                   "rowId": `${_p}? admin`
                 }, {
-                  "title": "Grup",
-                  "description": "",
+                  "title": "[🏢] Grup",
+                  "description": "MENU GRUP",
                   "rowId": `${_p}? grup`
                 }, {
-                  "title": "Premium",
-                  "description": "",
+                  "title": "[🔝] Premium",
+                  "description": "MENU UNTUK PREMIUM",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "Internet",
-                  "description": "",
+                  "title": "[🖥️] Internet",
+                  "description": "CARI SESUATU DI PUTBOTZ",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "Anonymous",
-                  "description": "",
+                  "title": "[🥷] Anonymous",
+                  "description": "Mainkan Anonymous chat",
                   "rowId": `${_p}? anonymous`
                 }, {
-                  "title": "Nulis & Logo",
-                  "description": "",
+                  "title": "[✒️] Nulis & Logo",
+                  "description": "MENU NULIS LOGO",
                   "rowId": `${_p}? nulis`
                 }, {
-                  "title": "Downloader",
-                  "description": "",
+                  "title": "[📺] Downloader",
+                  "description": "MENU DOWNLOAD",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "Tools",
-                  "description": "",
+                  "title": "[🔧] Tools",
+                  "description": "TOOLS YG BISA DIGUNAKAN DI PUTBOTZ",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "Fun",
-                  "description": "",
+                  "title": "[🎇] Fun",
+                  "description": "MENU FUN",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "Database",
-                  "description": "",
+                  "title": "[📂] Database",
+                  "description": "MENYIMPAN SESUATU DI PUTBOTZ",
                   "rowId": `${_p}? database`
                 }, {
-                  "title": "Vote & Absen",
-                  "description": "",
+                  "title": "[📝] Vote & Absen",
+                  "description": "MENU VOTE & ABSEN",
                   "rowId": `${_p}? vote`
                 }, {
-                  "title": "Al-Qur\'an",
-                  "description": "",
+                  "title": "[🕋]Al-Qur\'an",
+                  "description": "MENU TENTANG AL-QURAN",
                   "rowId": `${_p}? quran`
                 }, {
-                  "title": "Pengubah Suara",
-                  "description": "",
+                  "title": "[🎙️] Pengubah Suara",
+                  "description": "UBAH SUARAMU",
                   "rowId": `${_p}? audio`
                 }, {
-                  "title": "Jadi Bot",
-                  "description": "",
+                  "title": "[🤖] Jadi Bot",
+                  "description": "JADIBOT DI PUTBOTZ",
                   "rowId": `${_p}? jadibot`
                 }, {
-                  "title": "Info",
-                  "description": "",
+                  "title": "[ℹ️] Info",
+                  "description": "INFO PUTBOTZ",
                   "rowId": `${_p}? info`
                 }, {
-                  "title": "Tanpa Kategori",
-                  "description": "",
+                  "title": "[🚫]Tanpa Kategori",
+                  "description": "Menu gaberguna y",
                   "rowId": `${_p}? tanpakategori`
                 }, {
-                  "title": "Owner",
-                  "description": "",
+                  "title": "🧑‍💻] Owner",
+                  "description": "MENU KHUSUS OWNER",
                   "rowId": `${_p}? owner`
                 }
               ]
@@ -412,16 +412,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Good morning :3"
+    res = "Good morning"
   }
   if (time > 10) {
-    res = "Good morning :3"
+    res = "Good morning"
   }
   if (time >= 15) {
-    res = "good afternoon:3"
+    res = "good afternoon"
   }
   if (time >= 18) {
-    res = "Good night jan bergadang y ntar sakit <3"
+    res = "Good night"
   }
   return res
 }
