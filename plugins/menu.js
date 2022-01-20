@@ -195,97 +195,97 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
               "rows": [
                 {
                   "title": `[🧾] Semua Perintah`,
-                  "description": "",
+                  "description": "Semua Fitur Putbotz",
                   "rowId": `${_p}? all`
                 }, {
                   "title": "[🎮] Game",
-                  "description": "",
+                  "description": "Menu games",
                   "rowId": `${_p}? game`
 
                 }, {
                   "title": "[📈] XP",
-                  "description": "",
+                  "description": "Xp & Level",
                   "rowId": `${_p}? xp`
 
                 }, {
                   "title": "[🎇] Stiker",
-                  "description": "",
+                  "description": "Menu Stiker",
                   "rowId": `${_p}? stiker`
                 }, {
                   "title": "[🐚] Kerang Ajaib",
-                  "description": "",
+                  "description": "Menu Kerang",
                   "rowId": `${_p}? kerangajaib`
                 }, {
                   "title": "[📑] Quotes",
-                  "description": "",
+                  "description": "Menu Quotes",
                   "rowId": `${_p}? quotes`
                 }, {
                   "title": "[🏛️] Admin",
-                  "description": "",
+                  "description": "Menu khusus Admin",
                   "rowId": `${_p}? admin`
                 }, {
                   "title": "[🏢] Grup",
-                  "description": "",
+                  "description": "Menu Khusus Grup",
                   "rowId": `${_p}? grup`
                 }, {
                   "title": "[🔝] Premium",
-                  "description": "",
+                  "description": "Menu Khusus Premium",
                   "rowId": `${_p}? premium`
                 }, {
                   "title": "[🖥️] Internet",
-                  "description": "",
+                  "description": "Cari Sesuatu Di Putbotz",
                   "rowId": `${_p}? internet`
                 }, {
                   "title": "[🥷] Anonymous",
-                  "description": "",
+                  "description": "Anonymous chat",
                   "rowId": `${_p}? anonymous`
                 }, {
-                  "title": "✒️] Nulis & Logo",
-                  "description": "",
+                  "title": "[✒️] Nulis & Logo",
+                  "description": "Nulis Logo",
                   "rowId": `${_p}? nulis`
                 }, {
                   "title": "[📺] Downloader",
-                  "description": "",
+                  "description": "Menu Download",
                   "rowId": `${_p}? downloader`
                 }, {
                   "title": "[🔧] Tools",
-                  "description": "",
+                  "description": "Tools Putbotz",
                   "rowId": `${_p}? tools`
                 }, {
                   "title": "[🎇] Fun",
-                  "description": "",
+                  "description": "Menu Fun",
                   "rowId": `${_p}? fun`
                 }, {
                   "title": "[📂] Database",
-                  "description": "",
+                  "description": "Database Putbotz",
                   "rowId": `${_p}? database`
                 }, {
                   "title": "[📝] Vote & Absen",
-                  "description": "",
+                  "description": "Vote & Absen",
                   "rowId": `${_p}? vote`
                 }, {
                   "title": "[🕋] Al-Qur\'an",
-                  "description": "",
+                  "description": "Menu Al-Quran",
                   "rowId": `${_p}? quran`
                 }, {
                   "title": "[🎙️] Pengubah Suara",
-                  "description": "",
+                  "description": "Ubah Suaramu",
                   "rowId": `${_p}? audio`
                 }, {
                   "title": "[🤖] Jadi Bot",
-                  "description": "",
+                  "description": "Jadibot sementara di Putbotz",
                   "rowId": `${_p}? jadibot`
                 }, {
                   "title": "[ℹ️] Info",
-                  "description": "",
+                  "description": "Info Putbotz",
                   "rowId": `${_p}? info`
                 }, {
                   "title": "Tanpa Kategori",
                   "description": "",
                   "rowId": `${_p}? tanpakategori`
                 }, {
-                  "title": "🧑‍💻] Owner",
-                  "description": "",
+                  "title": "[🧑‍💻] Owner",
+                  "description": "Owner Putbotz",
                   "rowId": `${_p}? owner`
                 }
               ]
