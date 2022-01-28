@@ -11,10 +11,10 @@ handler.all = async function (m, { conn, isBlocked }) {
 
 
     //salam
-    let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم|aslm)/i
+    let reg = /(babi|bodo|sial|kontol)/i
     let isSalam = reg.exec(m.text)
     if (isSalam && !m.fromMe) {
-        m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ\n_wa\'alaikumussalam wr.wb._`)
+        m.reply(`Jangan toxic y`)
     }
 
     // backup db
