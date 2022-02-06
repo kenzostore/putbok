@@ -188,7 +188,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": "© Putbotz",
-          "footerText": "*%time* kalo banyak eror maaf y",
+          "footerText": " *%time* kalo banyak eror maaf y",
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
