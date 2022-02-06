@@ -188,6 +188,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": "© Putbotz",
+          "footerText": "*%time* kalo banyak eror maaf y",
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
@@ -199,7 +200,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": `${_p}? all`
                 }, {
                   "title": "[🎮] Game",
-                  "description": "Menu games",
+                  "description": "Masih banyak error",
                   "rowId": `${_p}? game`
 
                 }, {
