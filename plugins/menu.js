@@ -187,7 +187,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "─━─「Putbotz」━⬣
+          "description": `
+┏─━─「⚜️Putbotz⚜️ 」━⬣  
 │⬡ ⏰Aktif selama ${uptime}
 ┃⬡ ⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 │⬡ ⚜️Putbotz
@@ -197,10 +198,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┃
 │⬡ note : gaada apikey
-┃
-┗─━─━─━─━━⬣`.trim(),",
+│
+┗─━─━─━─━━⬣`.trim(),
           "footerText": "Whatsapp Bot",
-          "buttonText": "Klik Disini",
+          "buttonText": "𝙠𝙡𝙞𝙠 𝙙𝙞𝙨𝙞𝙣𝙞",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
