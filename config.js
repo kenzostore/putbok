@@ -33,7 +33,7 @@ global.author = 'ganteng'
 
 global.wm = '© AnjasGanteng'
 global.eror = '_*ok*_'
-global.wait = '_*sabar ya putbotz lagi proses😾*_'
+global.wait = '_*sabar ya anjasganteng lagi proses😾*_'
 global.benar = '✅'
 global.salah = '❌'
 global.dikit = 'dikit lagi'
